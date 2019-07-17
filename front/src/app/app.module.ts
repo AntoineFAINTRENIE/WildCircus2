@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { ConnectionComponent } from './connection/connection.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomepageComponent
+    HomepageComponent,
+    ConnectionComponent
   ],
   imports: [
     BrowserModule,
