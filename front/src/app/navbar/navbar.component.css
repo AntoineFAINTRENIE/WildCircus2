@@ -1,0 +1,19 @@
+nav {
+    background-color: #FF457A;
+}
+
+.fa-trophy:hover {
+    color: #ffbe45 !important;
+    transition: 1s;
+}
+
+.navbar-brand img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.navbar-brand:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
