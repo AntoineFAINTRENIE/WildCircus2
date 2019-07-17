@@ -7,13 +7,15 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ConnectionComponent } from './connection/connection.component';
+import { QuizzComponent } from './quizz/quizz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomepageComponent,
-    ConnectionComponent
+    ConnectionComponent,
+    QuizzComponent
   ],
   imports: [
     BrowserModule,
