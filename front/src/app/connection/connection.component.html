@@ -1,18 +1,18 @@
-<div id="myModal" class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">You want to discover the Circus ?</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Please enter your name here</p>
-                    <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enter</button>
-                    </form>
-                </div>
-            </div>
+<div class="col-12">
+  <div class="row">
+    <div class="col-4"></div>
+    <div class="col-4">
+      <form id="connection">
+        <div class="headersform">
+          <h4>You want to discover the Circus ?</h4>
         </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1"></label>
+          <input type="name" class="form-control" id="exampleInputName1" placeholder="Name" [(ngModel)]=currentName />
+        </div>
+        <button type="submit" class="btn btn-primary" routerLink="/home">Submit</button>
+      </form>
     </div>
+    <div class="col-4"></div>
+  </div>
+</div>

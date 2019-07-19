@@ -1,0 +1,56 @@
+/* --------- Responsive --------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  img {
+    vertical-align: middle;
+    width: 80%;
+    height: 80%;
+  }
+  
+  }
+
+/* --------- White Bander --------- */
+.tips {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    color: black;
+    font-family: monospace, sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.tips:hover {
+  transition: 1s;
+  box-shadow: 6px 6px 6px #dddddd91;
+}
+
+span {
+  font-family: monospace, sans-serif;
+  font-size: 2.5em;
+}
+
+/* --------- Paragraph --------- */
+.col-6 p {
+    font-size: 1.2em;
+}
+
+.quizz .btn {
+    margin-top: 15%;
+}
+
+/* --------- Zoom on Image --------- */
+
+/* [1] The container */
+.img-hover-zoom {
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
